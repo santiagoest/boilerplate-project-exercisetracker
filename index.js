@@ -4,7 +4,7 @@ const cors = require('cors')
 require('dotenv').config()
 const mongoose = require('mongoose');
 const { Schema } = mongoose;
-const uri = "mongodb+srv://sest314:Adastra7_@cluster0.3wxok.mongodb.net/?retryWrites=true&w=majority";
+const uri = "";
 mongoose.connect(uri);
 
 const UserSchema = new Schema({
